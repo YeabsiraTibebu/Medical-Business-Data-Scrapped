@@ -44,6 +44,8 @@ db = PostgresConnection(dbname='postgres', user='postgres', password='postgres')
 db.connect()
 
 
+
+
 #query = "SELECT * FROM TgBank"
 #result = db.execute_query(query)
 
