@@ -34,7 +34,7 @@ Task-3: Object Detection Using YOLO
     Install dependencies including YOLO and its required libraries
   2. Downloading the YOLO Model
   3. Preparing the Data
-    Collect images from telegram channel
+    Collect images from the telegram channel
   4. Use the pre-trained YOLO model to detect objects in the images
   5. Processing the Detection Results:
     Extract relevant data from the detection results
@@ -42,16 +42,16 @@ Task-3: Object Detection Using YOLO
   7. Monitoring and Logging
 
 Task-4: Expose the collected data using Fast API
-
-    1. Setting up the Environment:
+   
+  1. Setting up the Environment:
       Install FastAPI and Uvicorn
-    2. Create a FactAPI Application
-      Set up a basic project strucure
-    3. Database Configuration
-    4. Creating Data models
-    5. Creating Pydantic schemas
-    6. CRUD Operations
-    7. Creating API Endpoints
+  2. Create a FactAPI Application
+      Set up a basic project structure
+  3. Database Configuration
+  4. Creating Data models
+  5. Creating Pydantic schemas
+  6. CRUD Operations
+  7. Creating API Endpoints
 
     
 
