@@ -4,4 +4,4 @@ sources:
   name: postgres
   schema: public
   tables:
-      name: 
+      name: DoctorsET
