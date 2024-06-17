@@ -1,9 +1,19 @@
 from typing import Union
-
+from . import crud, models, schemas, database
 from fastapi import FastAPI, Depends, HTTPException
 from sqlalchemy.orm import Session
-from database import Sessionlocal, engine
-import crud, models, schemas
+from sqlalchemy import create_engine
+from sqlalchemy.ext.declarative import declarative_base
+from sqlalchemy.orm import sessionmaker
+
+SQLALCHEMY_DATABASE_URL = "postgresql://user:pass@localhost:5432/postgres"
+
+engine = create_engine(SQLALCHEMY_DATABASE_URL)
+SessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)
+Base = declarative_base()
+
+
+
 
 models.Base.metadata.create_all(bind = database.engine)
 
